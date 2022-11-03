@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First, we create a variable called name and set it to the string: "Dane".
+// Then, we create a "if else" conditional that checks if our variable, name, is equal to: "Mary".
+// If 'name' is equal to "Mary", then we console.log: "Hi, Mary!".
+// Lastly, if 'name' is equal to anything else, then we console.log: "How do you do?". 
 
 //CODE
 /*
@@ -45,8 +45,8 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// First, we create a variable called secret but for now, it's set to nothing.
+// Then, we create a variable called code and set it to the number: 123.
 // 
 //
 
