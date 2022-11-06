@@ -46,9 +46,13 @@ if (name === 'Mary') {
 
 // 2. WRITE YOUR DESCRIPTION HERE
 // First, we create a variable called secret but for now, it's set to nothing.
-// Then, we create a variable called code and set it to the number: 123.
-// 
-//
+// Then, we create a variable called 'code' and set it to the number: 123.
+// Then, we create a "if" conditional that checks if 'code' is strictly equal to: 123.
+// If 'code' is strictly equal to: 123, set 'secret' to the string: "super".
+// Also, set 'code' to equal 'code' mutiplied by two.
+// Then we create another "if" conditional that checks if 'code' is greater than 250.
+// If 'code' is greater than 250, set 'secret' to the string: "duper".
+// Lastly, console.log the variable: 'secret'.
 
 //CODE
 /*
@@ -70,10 +74,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// First, we create a variable called 'isStudent' and set it to true.
+// We create a variable called 'age' and set it to 34
+// We create a variable called 'zip' and set it to 55407.
+// Next, we create a "else if" conditional that checks if 'isStudent' is strictly equal to true and if 'zip' is greater than 80000.
+// If both are true, console.log the string: "You're a student on the West Coast".
+// If 'isStudent' is false or if 'age' is less than 30, console.log the string: "What are your hobbies?".
+// IF 'isStudent' is true, console.log the string: "Welcome to Prime!".
+// In any other case that isn't stated above, console.log the string: "How about the weather?".
 
 //CODE
 /*
@@ -130,10 +138,14 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX -  variables 'colorOne' and 'colorTwo' should be switched around
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+// FIX - we want both the variables 'colorOne' and 'colorTwo' to be set to "purple".
+// Here only 'colorOne' is being set to "purple" 
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -144,9 +156,15 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
+// FIX - In this case, the variable 'time' is a constant so it will always be 4.
+// Since the time can change, we want it to be: let time = 4.
 let temp = 40;
 const time = 4;
 
+// FIX - This conditional is set with 'or' (||) operator.
+// We want this conditional to be applied when BOTH conditions are true.
+// So we change it to an 'and' (&&) operator.
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,6 +178,8 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// FIX - Here, if 'age' is greater than or equal to 'minAge', the program will console.log: 'no entry'.
+// In this case, we want the two console.log's switched around so when our conditional is met, we console.log: 'enter'.
 if(minAge <= age) {
   console.log('no entry');
 } else {
